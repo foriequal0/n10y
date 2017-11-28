@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "N10y E8g",
+    "version": "1.0",
+    "description": "Numeronymify everything",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "n10y.js"
+            ]
+        }
+    ]
+}
